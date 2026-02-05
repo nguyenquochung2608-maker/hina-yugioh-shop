@@ -1,0 +1,304 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('image/backgroud.jfif'); 
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 20px auto;        
+    padding: 0;
+    display: flex;          
+    justify-content: center;  
+    background-color: rgba(51, 51, 51, 0.9); 
+    width: fit-content;       
+    border-radius: 10px;      
+    overflow: hidden;         
+}
+.navbar li a {
+    display: block;         
+    color: white;           
+    text-align: center;
+    padding: 14px 25px;    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.navbar li a:hover {
+    background-color: rgb(0, 255, 149);
+    color: black;
+}
+.search-container {
+    position: static;      
+    display: flex;          
+    justify-content: center; 
+    gap: 5px;
+    margin: 20px auto;      
+    width: fit-content;     
+}
+
+.search-container input {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 2px solid #b30000;
+    outline: none;
+}
+
+.search-container button {
+    width: auto; 
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: #b30000;
+    color: white;
+    font-weight: bold;
+}
+contact-info {
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(0, 255, 149); 
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    z-index: 1000; 
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 30px;
+    color: white; 
+}
+h1 {
+    text-align: center;
+    color: #b30000;
+    font-size: 60px;
+    border: 5px double #b30000; 
+    padding: 20px;            
+    margin: 20px auto;         
+    width: fit-content;         
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;       
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+}
+
+div {
+    width: 300px;               
+    background-color: white;
+    padding: 15px;
+    margin: 15px;             
+    border: 2px solid #b30000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: inline-block;     
+    vertical-align: top;        
+    text-align: left;         
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+p {
+    color: red;
+    font-size: 18px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 255, 149);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('image/backgroud.jfif'); 
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #b30000;
+    font-size: 50px;
+    border: 5px double #b30000; 
+    padding: 15px 30px;            
+    margin: 20px auto;         
+    width: fit-content;         
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;       
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+}
+
+.search-container {
+    display: flex;          
+    justify-content: center; 
+    gap: 5px;
+    margin: 15px auto;      
+    width: fit-content;     
+}
+
+.search-container input {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #b30000;
+    outline: none;
+    width: 250px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #b30000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 10px auto 30px auto;        
+    padding: 0;
+    display: flex;          
+    justify-content: center;  
+    background-color: rgba(51, 51, 51, 0.9); 
+    width: fit-content;       
+    border-radius: 10px;      
+    overflow: hidden;         
+}
+
+.navbar li a {
+    display: block;         
+    color: white;           
+    padding: 12px 20px;    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    background-color: rgb(0, 255, 149);
+    color: black;
+}
+
+/* --- FIX LỖI LỆCH Ở ĐÂY --- */
+.product-container {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các thẻ bài tự xuống dòng */
+    justify-content: center; /* Căn giữa các thẻ bài */
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 280px; /* Trả lại độ rộng gần giống 300px ban đầu của bạn */
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #b30000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: left;         
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card h2 {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+    min-height: 40px; /* Đảm bảo tên dài không làm lệch nút bấm */
+}
+
+.card p {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 255, 149);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: auto; /* Đẩy nút bấm xuống đáy thẻ */
+}
+
+.card button:hover {
+    background-color: orange;
+}
+
+.contact-info {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(0, 255, 149); 
+    text-align: left;
+    margin: 40px auto 20px auto;
+    width: fit-content;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: white; 
+}
+
+/* --- ĐIỀU CHỈNH RIÊNG CHO MOBILE --- */
+@media (max-width: 600px) {
+    .card {
+        width: 160px; /* Thu nhỏ thẻ bài một chút trên điện thoại để hiện được 2 cột */
+        padding: 10px;
+    }
+    .card h2 {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
